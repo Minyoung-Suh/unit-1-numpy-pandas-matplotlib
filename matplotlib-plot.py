@@ -8,6 +8,7 @@ if __name__ == "__main__":
     pd_exp_data = pd.read_csv("pd_exp.csv", index_col=0)
     
     # Line Plot
+    plt.figure()
     plt.plot(np_exp_data[:, 0], np_exp_data[:, 1])
     plt.plot(pd_exp_data)
 
