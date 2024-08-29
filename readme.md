@@ -35,8 +35,8 @@ Troubleshooting
     - Upgrade pip with `python -m pip install --upgrade pip`
     - Then reinstall the packages with ``python3 -m pip install -r ./requirements.txt`
 3. If you get the error `WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe`, please install Microsoft Visual Studios (this is different than VS Code) at https://visualstudio.microsoft.com/
-  - This downloads some c++ tools that are used to install pip packages. 
-  - Make sure you click the "Desktop Development with C++" box, then hit install.
-  - Once installed you do not need to sign in
-  - You may need to restart your computer for this to take effect. (my system did not seem to need it)
+     - This downloads some c++ tools that are used to install pip packages. 
+     - Make sure you click the "Desktop Development with C++" box, then hit install.
+     - Once installed you do not need to sign in
+     - You may need to restart your computer for this to take effect. (my system did not seem to need it)
   
